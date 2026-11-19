@@ -1,0 +1,11 @@
+@VeterinarniKlinikaApi_HostAddress = https://localhost:7204
+
+
+GET {{VeterinarniKlinikaApi_HostAddress}}/api/owners
+
+###
+
+@id=1
+GET {{VeterinarniKlinikaApi_HostAddress}}/api/owners/{{id}}
+
+###
