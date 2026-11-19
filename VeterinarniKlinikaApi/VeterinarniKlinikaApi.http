@@ -9,3 +9,11 @@ GET {{VeterinarniKlinikaApi_HostAddress}}/api/owners
 GET {{VeterinarniKlinikaApi_HostAddress}}/api/owners/{{id}}
 
 ###
+
+GET {{VeterinarniKlinikaApi_HostAddress}}/api/pets
+
+###
+
+GET {{VeterinarniKlinikaApi_HostAddress}}/api/pets/{{id}}
+
+###
