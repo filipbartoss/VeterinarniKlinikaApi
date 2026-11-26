@@ -14,6 +14,9 @@ builder.Services.AddOpenApi();
 builder.Services.AddSingleton<IOwnerRepository, InMemoryOwnerRepository>();
 builder.Services.AddScoped<OwnerService>();
 
+builder.Services.AddSingleton<IPetRepository, InMemoryPetRepository>();
+builder.Services.AddScoped<PetService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
